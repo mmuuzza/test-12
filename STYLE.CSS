@@ -1,0 +1,123 @@
+
+/* header */
+header {
+    height: 116px;
+    background-color: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px;
+    top: 0;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.contact-us {
+    width: 920px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(28, 19, 37, 0.8);
+    box-shadow: 0 0 15px rgba(176, 82, 181, 0.8);
+    color: #fff;
+    text-align: center;
+}
+.contact-us h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+
+
+.input-group input {
+    width: 38%;
+    padding: 10px;
+    border-radius:50px;
+    border: 1px solid #b052b5;
+    background-color: transparent;
+    color: #fff;
+}
+
+body {
+    margin: 120;
+    height: 100 ;
+    background: url('./assets/rectangle-3.svg');
+    background-size: cover;
+}
+.input-group input::placeholder {
+    color: rgb(214, 214, 202);
+}
+
+.radio-group {
+    text-align: left;
+    margin: 20px 0;
+    color: #B052B5C9;
+}
+
+.radio-group label {
+    display: block;
+    margin: 10px 1;
+    color: #B052B5C9;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+    color: 
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #b052b5;
+    background-color: transparent;
+    color: #b052b5ff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea::placeholder {
+    color: #a9a59f;
+}
+
+.checkbox {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #f30aea;
+    color: #fff;
+    margin: 20px;
+    padding: 25px 40px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: progress;
+}
